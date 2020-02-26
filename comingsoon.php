@@ -67,7 +67,7 @@ function comingsoon_settings_page() {
 	        	<?php echo get_option('comingsoon_option')==0?'selected':''; ?>
 	        	<select name='comingsoon_option'>
 	        		<option value="0" selected="<?php echo get_option('comingsoon_option')==0?'selected':''; ?>">Tắt</option>
-	        		<option value="1" selected="<?php echo get_option('comingsoon_option')==1?'selected':''; ?>"></option>
+	        		<option value="1" selected="<?php echo get_option('comingsoon_option')==1?'selected':''; ?>">Tất cả page</option>
 	        		<option value="2" selected="<?php echo get_option('comingsoon_option')==2?'selected':''; ?>">Chọn Page</option>
 	        		<option value="3" selected="<?php echo get_option('comingsoon_option')==3?'selected':''; ?>">IP</option>
 	        	</select>
